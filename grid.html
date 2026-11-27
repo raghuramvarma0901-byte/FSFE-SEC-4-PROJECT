@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Grid Layout</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            padding: 20px;
+        }
+
+        .box {
+            background-color: lightgreen;
+            padding: 40px;
+            text-align: center;
+            border: 2px solid black;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Grid Example</h1>
+
+    <div class="container">
+        <div class="box">HTML</div>
+        <div class="box">CSS</div>
+        <div class="box">Java</div>
+        <div class="box">Python</div>
+        <div class="box">JavaScript</div>
+        <div class="box">C++</div>
+    </div>
+</body>
+</html>
